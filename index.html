@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Ortiz,Kaio Mangolin,Leonardo Ferreira">
+    <title>Conta de Água</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Seja bem vindo ao nosso site!!, redusa o consumo de água, "água é vida".</h1>
+    <h4>Instruções importentes :</h4>
+    <p>
+        • Selecione a cidade onde você mora. <br>
+        • Insira o consumo por metros cúbicos. <br>
+        • Clique no botão calcular. <br><br>
+        <strong> Feito por Kaio,Gabriel Ortiz e Leonardo</strong>
+    </p>
+    <label for="selctionCidades">Selecione a cidade desejada:</label>
+    <br>
+    <select id="selctionCidades">
+        <option value="Curitiba">Curitiba</option>
+        <option value="DemaisLocalidades">Demais Localidades</option>
+    </select>
+    <br><br>
+
+    <label for="MetrosCubicus">Insira o consumo por metros cúbicos:</label>
+    <br>
+    <input type="number" id="MetrosCubicus">
+    <br><br>
+
+    <button onclick="dadosHTML()">Calcular</button>
+    <br><br>
+    <input type="text" id="saida" readonly placeholder="Resultado">
+    <script src="./javaScript.js"></script>
+</body>
+
+</html>
